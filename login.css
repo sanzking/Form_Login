@@ -1,0 +1,27 @@
+body {
+	background: #474745;
+}
+.login {
+	background: linear-gradient(#b8b8b2, #b8b8b2, #8f8f8d);
+	padding: 100px 100px;
+	width: 300px;
+	margin-left: 30%;
+}
+.login input {
+	color: black;
+	padding: 10px 120px;
+	border: 1px solid black;
+	margin-left: -55px;
+	background: #d9d9d4;
+}
+#cek {
+	color: green;
+}
+.login p {
+	color: red;
+}
+.login button {
+	background: linear-gradient(#7c8bfc, #7c8bfc, blue);
+	padding: 10px 120px;
+	color: white;
+}

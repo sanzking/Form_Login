@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOGIN FORM SIMPEL</title>
+<link rel="stylesheet" href="login.css">
+<script src="login.js"></script>
+</head>
+<body>
+<div align="center" class="login">
+<h1>Login form</h1>
+<form id="form" onsubmit="return Login()">
+<p id="error"></p>
+<input type="text" id="username" placeholder="Masukan username" value=""><br><br>
+<input type="password" id="password" placeholder="Masukan password" value=""><br><br>
+<button type="submit">Log in</button><br><br>
+<button style="background: linear-gradient(#ff5757, #ff5757, red);color: white;" type="button" onclick="myFunction()">Reset</button>
+</form>
+<h1 id="cek"></h1>
+<small>Sudah punya akun? <a href="#">Login disini</a></small>
+</div>
+</body>
+</html>
